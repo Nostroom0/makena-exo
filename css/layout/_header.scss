@@ -1,0 +1,28 @@
+
+header{
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+.menu, .text-overlay{
+    position: absolute;
+    left: 50px;
+}
+.video-container{
+    video{
+        position: absolute;
+        z-index: -1;
+        object-fit: cover;
+        width: 100vw;
+        height: 100%;
+    }
+    .text-overlay{
+        width: 400px;
+        bottom: 5%;
+    }
+}
+
+
+
+
+
